@@ -323,6 +323,7 @@ input.input100 {
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
 .bg0 {background-color: #fff;}
+/* .bg0 {background-color: rgba(110,193,205, 1);} */
 .bg1 {background-color: #3b5998;}
 .bg3 {background: rgb(64,93,230);
   background: linear-gradient(90deg, rgba(64,93,230,1) 0%, rgba(88,81,219,1) 11%, rgba(131,58,180,1) 25%, rgba(193,53,132,1) 39%, rgba(225,48,108,1) 54%, rgba(245,96,64,1) 71%, rgba(252,175,69,1) 87%, rgba(255,220,128,1) 100%);}
@@ -432,7 +433,10 @@ input.input100 {
   right: 100%;
   width: 10000px;
   height: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
+  -webkit-box-shadow: 10px 0px 5px -4px rgba(0,0,0,0.2);
+-moz-box-shadow: 10px 0px 5px -4px rgba(0,0,0,0.2);
+box-shadow: 10px 0px 5px -4px rgba(0,0,0,0.2);
   transform-origin: bottom right;
   -webkit-transform: skewX(156deg);
   -moz-transform: skewX(156deg);
